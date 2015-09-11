@@ -3,8 +3,8 @@
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.*)$ /practicas/codeigniter/ci_fpdf/index.php/$1 [L] 
+	RewriteRule ^(.*)$ /CodeIgniter-WIP/ci_fpdf/index.php/$1 [L] 
 </IfModule>
 <IfModule !mod_rewrite.c>
-	ErrorDocument 404 /practicas/codeigniter/ci_fpdf/index.php 
+	ErrorDocument 404 /CodeIgniter-WIP/ci_fpdf/index.php 
 </IfModule>
