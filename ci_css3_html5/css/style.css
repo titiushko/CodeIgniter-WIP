@@ -1,0 +1,49 @@
+/* CSS Document */
+*{
+	margin: 0 auto;	
+}
+
+body{	
+	
+}
+
+footer{
+	background-color: #333;
+	color: white;
+	font-size: 16px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+header{
+	background-color: #3890FC;
+	color: white;
+	font-size: 48px;
+	padding: 80px 0;
+	text-align: center;
+}
+
+nav{		
+	background-color: #000;	
+	padding: 10px 0;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 25px;
+	text-transform: uppercase;			
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#parrafo{
+	width: 900px;
+	font-size: 18px;
+	text-align: justify;
+}
+
